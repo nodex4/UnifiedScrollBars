@@ -1,14 +1,12 @@
+
 {
-  "manifest_version": 2,
- 
+  // Required
+  "manifest_version": 3,
   "name": "UnifiedScrollBars",
   "version": "1.0.0",
-  "description": "Nice Dark Scroll Bars, Everywhere",
- 
-  "content_scripts": [{
-    "css": ["styles.css"],
-    "js": ["app.js"],
-    "matches": ["https://blog.lateral.io/*"]
-  }]
- 
+
+  // Recommended
+  "action": {...},
+  "default_locale": "en",
+  "description": "Nice Dark Scroll Bars, Everywhere"
 }
